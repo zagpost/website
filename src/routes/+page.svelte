@@ -196,7 +196,7 @@
   Everything is currently volunteer-based - private life comes first, but if you want to contribute in any
   way, please reach out to me at
   <a href="mailto:contact@zagpost.org" target="_blank">contact@zagpost.org</a> or on
-  <a href="https://bsky.app/profile/zagpost.bsky.social" target="_blank">Bluesky</a>.
+  <a href="https://bsky.app/profile/zagpost.org" target="_blank">Bluesky</a>.
 </p>
 
 <hr />
@@ -209,7 +209,7 @@
     <b>GitHub</b>: <a href="https://github.com/orgs/zagpost" target="_blank">GitHub</a>
   </p>
   <p>
-    <b>Bluesky</b>: <a href="https://bsky.app/profile/zagpost.bsky.social" target="_blank">Bluesky</a>
+    <b>Bluesky</b>: <a href="https://bsky.app/profile/zagpost.org" target="_blank">Bluesky</a>
   </p>
   <small>&copy; 2026 zagpost.org </small>
 </footer>

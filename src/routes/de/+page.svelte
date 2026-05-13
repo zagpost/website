@@ -211,7 +211,7 @@
   Derzeit läuft alles auf Freiwilligenbasis – das Privatleben hat Vorrang, aber wenn du in irgendeiner Weise
   mitwirken möchtest, melde dich bitte bei mir unter
   <a href="mailto:contact@zagpost.org" target="_blank">contact@zagpost.org</a> oder auf
-  <a href="https://bsky.app/profile/zagpost.bsky.social" target="_blank">Bluesky</a>.
+  <a href="https://bsky.app/profile/zagpost.org" target="_blank">Bluesky</a>.
 </p>
 
 <hr />
@@ -224,7 +224,7 @@
     <b>GitHub</b>: <a href="https://github.com/orgs/zagpost" target="_blank">GitHub</a>
   </p>
   <p>
-    <b>Bluesky</b>: <a href="https://bsky.app/profile/zagpost.bsky.social" target="_blank">Bluesky</a>
+    <b>Bluesky</b>: <a href="https://bsky.app/profile/zagpost.org" target="_blank">Bluesky</a>
   </p>
   <small>© 2026 zagpost.org </small>
 </footer>
