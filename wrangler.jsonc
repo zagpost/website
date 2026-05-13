@@ -1,0 +1,21 @@
+{
+  "name": "zagpost",
+  "compatibility_date": "2026-05-11",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
+  "assets": {
+    "directory": "./build"
+  },
+  "observability": {
+    "enabled": true
+  },
+  "route": {
+    "custom_domain": true,
+    "pattern": "zagpost.org"
+  },
+  "placement": {
+    "mode": "smart"
+  }
+}

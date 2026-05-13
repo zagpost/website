@@ -1,3 +1,27 @@
+<script lang="ts">
+  import Head, { type SeoConfig } from "$lib/components/Head.svelte";
+  import JsonLd from "$lib/components/JsonLd.svelte";
+
+  const seo_config: SeoConfig = {
+    title: "Zag Post - Private Nachrichten für alle",
+    description:
+      "Zag Post ist ein Messenger, bei dem der Datenschutz an erster Stelle steht. Keine Telefonnummer erforderlich.",
+    url: "https://zagpost.com/de",
+    language: "de",
+  };
+
+  const jsonLdData: JsonLdData = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: seo_config.title,
+    description: seo_config.description,
+    url: seo_config.url,
+  };
+</script>
+
+<Head {seo_config} />
+<JsonLd item={jsonLdData} />
+
 <b>Private Nachrichten für alle.</b>
 
 <p>

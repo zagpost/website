@@ -15,6 +15,7 @@
 
 <svelte:head>
   <link rel="icon" href={favicon} />
+  <meta name="theme-color" content="#28bf6a" />
 </svelte:head>
 
 <div class="container mx-auto flex max-w-200 flex-col px-4 py-8">
@@ -37,7 +38,7 @@
     </div>
   </header>
 
-  <main class="prose prose-lg mt-(--header-height) max-w-svh mb-40">
+  <main class="prose prose-lg mt-(--header-height) mb-40 max-w-svh">
     {@render children()}
   </main>
 </div>

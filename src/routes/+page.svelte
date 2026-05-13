@@ -1,3 +1,29 @@
+<script lang="ts">
+  import Head, { type SeoConfig } from "$lib/components/Head.svelte";
+  import JsonLd from "$lib/components/JsonLd.svelte";
+
+  // ! This is not automatically translated using the script, so make sure to update the SEO config in the other language pages as well when you update it here.
+  const seo_config: SeoConfig = {
+    themeColor: "#000000",
+    title: "Zag Post - Private Messaging for the people",
+    description:
+      "Zag Post is a privacy-first messenger being built for friends, families and small groups. No phone number required.",
+    url: "https://zagpost.com/",
+    language: "en",
+  };
+
+  const jsonLdData: JsonLdData = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: seo_config.title,
+    description: seo_config.description,
+    url: seo_config.url,
+  };
+</script>
+
+<Head {seo_config} />
+<JsonLd item={jsonLdData} />
+
 <b>Private Messaging for the people.</b>
 
 <p>

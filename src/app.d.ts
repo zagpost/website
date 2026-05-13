@@ -1,6 +1,7 @@
 // See https://svelte.dev/docs/kit/types#app.d.ts
 
 import type { locales } from "$lib";
+import type { WebPage, WithContext } from "schema-dts";
 
 // for information about these interfaces
 declare global {
@@ -16,7 +17,9 @@ declare global {
     // interface Platform {}
   }
 
-  type Locale = typeof locales[number];
+  type Locale = (typeof locales)[number];
+
+  type JsonLdData = WithContext<WebPage>;
 }
 
 export {};
