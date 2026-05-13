@@ -8,9 +8,6 @@
   "assets": {
     "directory": "./build"
   },
-  "observability": {
-    "enabled": true
-  },
   "route": {
     "custom_domain": true,
     "pattern": "zagpost.org"
