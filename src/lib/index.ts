@@ -12,3 +12,9 @@ export const LanguagesLabel: Record<Locale, string> = {
   de: "Sprachen",
   fr: "Langues",
 };
+
+export const SiteTitles: Record<Locale, string> = {
+  en: "Zag Post - Private Messaging for the people",
+  de: "Zag Post - Private Nachrichten für alle",
+  fr: "Zag Post - Une messagerie privée pour tout le monde",
+};

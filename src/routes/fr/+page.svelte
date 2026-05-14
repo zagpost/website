@@ -22,7 +22,7 @@
 <Head {seo_config} />
 <JsonLd item={jsonLdData} />
 
-<b>Une messagerie privée pour tout le monde.</b>
+<h1>Une messagerie privée pour tout le monde.</h1>
 
 <p>
   <b>Zag Post</b> est une messagerie qui privilégie la confidentialité, conçue pour les amis, les familles et les
@@ -223,5 +223,5 @@
   <p>
     <b>Bluesky</b> : <a href="https://bsky.app/profile/zagpost.org" target="_blank">Bluesky</a>
   </p>
-  <small>© 2026 zagpost.org</small>
+  <small>© 2026 zagpost.org | <a href="/imprint">Mentions légales</a></small>
 </footer>

@@ -1,10 +1,12 @@
 <script lang="ts">
+  import { SiteTitles } from "$lib";
   import Head, { type SeoConfig } from "$lib/components/Head.svelte";
   import JsonLd from "$lib/components/JsonLd.svelte";
 
   // ! This is not automatically translated using the script, so make sure to update the SEO config in the other language pages as well when you update it here.
   const seo_config: SeoConfig = {
-    title: "Zag Post - Private Messaging for the people",
+    // svelte-ignore state_referenced_locally
+    title: SiteTitles.en,
     description:
       "Zag Post is a privacy-first messenger being built for friends, families and small groups. No phone number required.",
     url: "https://zagpost.org/",
@@ -23,7 +25,7 @@
 <Head {seo_config} />
 <JsonLd item={jsonLdData} />
 
-<b>Private Messaging for the people.</b>
+<h1>Private Messaging for the people.</h1>
 
 <p>
   <b>Zag Post</b> is a privacy-first messenger being built for friends, families and small groups - people who want
@@ -205,5 +207,7 @@
   <p>
     <b>Bluesky</b>: <a href="https://bsky.app/profile/zagpost.org" target="_blank">Bluesky</a>
   </p>
-  <small>&copy; 2026 zagpost.org</small>
+  <small>
+    &copy; 2026 zagpost.org | <a href="/imprint">Imprint</a>
+  </small>
 </footer>

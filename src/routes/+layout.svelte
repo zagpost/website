@@ -1,15 +1,28 @@
 <script lang="ts">
   import { goto } from "$app/navigation";
-  import { page } from "$app/state";
-  import { LanguagesLabel, locales, localesLabels } from "$lib";
+  import { LanguagesLabel, locales, localesLabels, SiteTitles } from "$lib";
   import favicon from "$lib/assets/favicon.svg";
+  import { getLocalizedPath } from "$lib/routeMap";
   import "./layout.css";
 
-  let { children } = $props();
+  let { data, children } = $props();
 
   function changeLanguage(event: Event & { currentTarget: EventTarget & HTMLSelectElement }) {
     const val = event.currentTarget.value;
-    goto(val === "en" ? "/" : `/${val}`);
+    const currentPath = window.location.pathname;
+
+    // Try to use the route map for localized pages
+    const localizedPath = getLocalizedPath(currentPath, val);
+    if (localizedPath) {
+      goto(localizedPath);
+      return;
+    }
+
+    // Fallback: handle dynamic pages by extracting the base path
+    let pathname = currentPath.replace(new RegExp(`^/(${locales.join("|")})`), "");
+    if (!pathname.startsWith("/")) pathname = "/" + pathname;
+
+    goto(val === "en" ? pathname : `/${val}${pathname === "/" ? "" : pathname}`);
   }
 </script>
 
@@ -32,12 +45,12 @@
     class="fixed top-0 right-0 left-0 mb-8 flex h-(--header-height) w-full items-center justify-between bg-background/30 px-4 py-8 shadow-lg backdrop-blur-lg"
   >
     <div class="mx-auto flex w-full max-w-220 items-center justify-between">
-      <h1>Zag Post</h1>
+      <a href="/{data.locale}" class="text-2xl font-bold transition-opacity hover:opacity-70">Zag Post</a>
       <select class="rounded border p-1 text-sm" onchange={changeLanguage}>
-        {#key page.data.locale}
-          <optgroup label={LanguagesLabel[page.data.locale]}>
+        {#key data.locale}
+          <optgroup label={LanguagesLabel[data.locale]}>
             {#each locales as locale}
-              <option value={locale} selected={page.data.locale === locale}>
+              <option value={locale} selected={data.locale === locale}>
                 {localesLabels[locale]}
               </option>
             {/each}

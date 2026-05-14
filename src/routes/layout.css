@@ -22,7 +22,7 @@
     scroll-margin-top: var(--header-height);
   }
   body {
-  @apply bg-background text-foreground overflow-x-hidden;
+    @apply overflow-x-hidden bg-background text-foreground;
   }
   html {
     @apply font-sans text-lg;
@@ -40,8 +40,9 @@
     @apply text-xl font-semibold;
   }
 
-  table td, table th {
-    @apply px-1
+  table td,
+  table th {
+    @apply px-1;
   }
 }
 

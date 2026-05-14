@@ -22,7 +22,7 @@
 <Head {seo_config} />
 <JsonLd item={jsonLdData} />
 
-<b>Private Nachrichten für alle.</b>
+<h1>Private Nachrichten für alle.</h1>
 
 <p>
   <b>Zag Post</b> ist ein Messenger, bei dem der Datenschutz an erster Stelle steht. Er wurde für Freunde, Familien
@@ -219,5 +219,5 @@
   <p>
     <b>Bluesky</b>: <a href="https://bsky.app/profile/zagpost.org" target="_blank">Bluesky</a>
   </p>
-  <small>© 2026 zagpost.org</small>
+  <small>© 2026 zagpost.org | <a href="/imprint">Impressum</a></small>
 </footer>
