@@ -25,7 +25,7 @@
     @apply overflow-x-hidden bg-background text-foreground;
   }
   html {
-    @apply font-sans text-lg;
+    @apply font-sans sm:text-lg;
   }
 
   h1 {
