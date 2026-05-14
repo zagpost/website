@@ -5,7 +5,15 @@
 :root {
   --background: oklch(98.463% 0.00181 249.248);
   --foreground: oklch(24.818% 0.01681 248.549);
+  --primary: oklch(70.977% 0.17262 152.649);
   --header-height: 4rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: oklch(15% 0.00181 249.248);
+    --foreground: oklch(93% 0.01681 248.549);
+  }
 }
 
 @theme inline {
@@ -14,6 +22,7 @@
     "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol;
   --color-foreground: var(--foreground);
   --color-background: var(--background);
+  --color-primary: var(--primary);
 }
 
 @layer base {
@@ -48,7 +57,17 @@
 
 @layer components {
   .table-zebra tbody tr:nth-child(odd) {
-    @apply bg-gray-100!;
+    background-color: color-mix(in oklab, var(--foreground) 7%, transparent) !important;
+  }
+
+  table tr td:first-child,
+  table tr th:first-child {
+    @apply ps-2!;
+  }
+
+  table tr td:last-child,
+  table tr th:last-child {
+    @apply pe-2!;
   }
 
   a {

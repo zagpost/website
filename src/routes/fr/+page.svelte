@@ -72,7 +72,7 @@
 </p>
 
 <div class="w-full overflow-x-auto">
-  <table class="table-zebra">
+  <table class="table-zebra min-w-120">
     <thead>
       <tr>
         <th>Étapes clés</th>
@@ -162,7 +162,7 @@
 </p>
 
 <div class="w-full overflow-x-auto">
-  <table class="table-zebra">
+  <table class="table-zebra min-w-120">
     <thead>
       <tr>
         <th>Rôle</th>

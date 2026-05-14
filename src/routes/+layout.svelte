@@ -1,6 +1,6 @@
 <script lang="ts">
   import { goto } from "$app/navigation";
-  import { LanguagesLabel, locales, localesLabels, SiteTitles } from "$lib";
+  import { LanguagesLabel, locales, localesLabels } from "$lib";
   import favicon from "$lib/assets/favicon.svg";
   import { getLocalizedPath } from "$lib/routeMap";
   import "./layout.css";
@@ -60,7 +60,7 @@
     </div>
   </header>
 
-  <main class="prose prose-lg mt-(--header-height) mb-40 w-full min-w-0">
+  <main class="prose prose-lg mt-(--header-height) mb-40 w-full min-w-0 dark:prose-invert">
     {@render children()}
   </main>
 </div>

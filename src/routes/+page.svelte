@@ -64,7 +64,7 @@
 <p><b>Zag Post</b> is in early development, but we target a closed beta release in December 2026.</p>
 
 <div class="w-full overflow-x-auto">
-  <table class="table-zebra">
+  <table class="table-zebra min-w-120">
     <thead>
       <tr>
         <th>Milestone</th>
@@ -152,7 +152,7 @@
 </p>
 
 <div class="w-full overflow-x-auto">
-  <table class="table-zebra">
+  <table class="table-zebra min-w-120">
     <thead>
       <tr>
         <th>Role</th>
