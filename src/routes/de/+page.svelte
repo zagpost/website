@@ -117,8 +117,6 @@
 
 <h2 id="our-commitments">Unsere Verpflichtungen</h2>
 
-<p>Wir geben konkrete, technische Zusagen – keine vagen Versprechungen.</p>
-
 <ol>
   <li>
     <b>Keine Werbung, niemals.</b> Zag Post wird durch Spenden finanziert. Deine Daten sind nicht das Produkt.
@@ -140,7 +138,7 @@
   </li>
   <li>
     <b>Ehrlichkeit bei Kompromissen.</b> Wo wir einen Kompromiss zwischen Komfort und Datenschutz eingehen, dokumentieren
-     wir dies klar und deutlich.
+    wir dies klar und deutlich.
   </li>
 </ol>
 
@@ -175,10 +173,7 @@
         <td>Grafik Designer</td>
         <td>
           Ich bin furchtbar im designen von Grafiken<br />
-          <small>
-            Es geht primär um das designen vom Logo, aber auch um die Entwicklung eines konsistenten visuellen
-            Stils für die Marke.
-          </small>
+          <small>Es geht primär um das designen vom Logo und anderen Grafiken.</small>
         </td>
       </tr>
       <tr>

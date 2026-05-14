@@ -162,10 +162,7 @@
         <td>Graphics Designer</td>
         <td>
           I am terrible at designing graphics<br />
-          <small>
-            It's primarily about designing the logo, but also about developing a consistent visual style for
-            the brand.
-          </small>
+          <small>It's primarily about designing the logo and other graphics.</small>
         </td>
       </tr>
       <tr>

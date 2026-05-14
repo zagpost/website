@@ -27,8 +27,7 @@
 <p>
   <b>Zag Post</b> est une messagerie qui privilégie la confidentialité, conçue pour les amis, les familles et les
   petits groupes – tous ceux qui veulent profiter de la commodité de WhatsApp sans confier leurs métadonnées à une
-  agence de pub. Pas besoin de numéro de téléphone. Pas de profils de métadonnées. Pas de scan des messages privés.
-  Pas de pubs, jamais.
+  agence de pub.
 </p>
 
 <p>
@@ -103,9 +102,9 @@
         <td>Fichiers, photos, notes vocales</td>
       </tr>
       <tr>
-        <td>M4 – Lancement et préparation de la version bêta</td>
+        <td>M4 – Push &amp; préparation de la bêta</td>
         <td>Nov. 2026</td>
-        <td>Notifications, exportation, surveillance</td>
+        <td>Notifications, export, supervision</td>
       </tr>
       <tr>
         <td>M5 – Bêta privée</td>
@@ -118,20 +117,17 @@
 
 <h2 id="our-commitments">Nos engagements</h2>
 
-<p>Nous prenons des engagements techniques précis, pas de vagues promesses.</p>
-
 <ol>
   <li>
     <b>Pas de publicité, jamais.</b> Zag Post est financé par des dons. Tes données ne sont pas le produit.
   </li>
   <li>
     <b>Un minimum de métadonnées.</b> Les données de routage des messages ont une durée de vie très courte. On enregistre
-    le moins possible et on documente exactement ce qu&#x27;on conserve. Pas de scan de contenu côté serveur ni
-    côté client.
+    le moins possible et on documente exactement ce qu&#x27;on conserve.
   </li>
   <li>
     <b>Aucune analyse de contenu côté serveur ou côté client.</b> Les discussions privées restent privées. Nous
-    n’analysons pas, n’indexons pas et ne formons pas de modèles à partir de tes messages.
+    n&#x27;analysons pas, n&#x27;indexons pas et n&#x27;entraînons pas de modèles à partir de tes messages.
   </li>
   <li>
     <b>Aucun numéro de téléphone requis.</b> Tu peux en ajouter un et contrôler si les autres peuvent te trouver
@@ -159,8 +155,9 @@
 <h2 id="join-us">Rejoins-nous</h2>
 
 <p>
-  Je (LukeZ) suis actuellement le seul à travailler sur Zag Post, mais j’espère constituer une petite équipe
-  de bénévoles et, à terme, de contributeurs rémunérés pour aider à le développer et à le maintenir.<br />
+  Je (LukeZ) suis actuellement le seul à travailler sur Zag Post, mais j&#x27;espère constituer une petite
+  équipe de bénévoles et, à terme, de contributeurs rémunérés pour aider à le développer et à le maintenir.<br
+  />
   Je recherche actuellement :
 </p>
 
@@ -174,12 +171,21 @@
     </thead>
     <tbody>
       <tr>
-        <td>Designer</td>
-        <td>Je suis nul en design</td>
+        <td>Designer graphique</td>
+        <td>
+          Je suis nul en design graphique<br />
+          <small>Il s'agit principalement de concevoir le logo et d'autres éléments graphiques.</small>
+        </td>
       </tr>
       <tr>
-        <td>Architecte</td>
-        <td>Quelqu&#x27;un qui a de l&#x27;expérience en conception de systèmes</td>
+        <td>Architecte/Développeur expérimenté</td>
+        <td>
+          Quelqu&#x27;un avec de l&#x27;expérience en conception de systèmes<br />
+          <small>
+            Quelqu&#x27;un à qui je peux demander des retours et qui est simplement utile à avoir dans
+            l&#x27;équipe.
+          </small>
+        </td>
       </tr>
       <tr>
         <td>Développeur</td>
@@ -188,7 +194,7 @@
           <small>
             Rust est le langage backend ; Kotlin/Swift sont destinés aux applications mobiles qui font partie
             de la feuille de route mais ne constituent pas la prochaine étape immédiate ; Svelte 5 est le
-            langage utilisé pour l&#x27;application web ainsi que pour le site web de ce produit.
+            langage utilisé pour l&#x27;application web ainsi que pour ce site.
           </small>
         </td>
       </tr>
