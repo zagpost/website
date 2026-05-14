@@ -129,20 +129,18 @@
   </li>
   <li>
     <b>Kein Scannen von Inhalten auf Server- oder Client-Seite.</b> Private Chats bleiben privat. Wir scannen, indexieren
-    oder trainieren nicht mit deinen Nachrichten. Keine Telefonnummer erforderlich. Du kannst eine hinzufügen und
-    steuern, ob andere dich darüber finden können. Du kannst sie auch jederzeit wieder entfernen.
+    oder trainieren nicht mit deinen Nachrichten.
   </li>
   <li>
     <b>Keine Telefonnummer erforderlich.</b> Du kannst eine hinzufügen und selbst bestimmen, ob andere dich darüber
-    finden können. Du kannst sie auch jederzeit entfernen. Standardmäßig Hosting in der EU. Deine Daten verlassen
-    die EU nicht ohne deine ausdrückliche Zustimmung.
+    finden können. Du kannst sie auch jederzeit entfernen.
   </li>
   <li>
     <b>Standardmäßig Hosting in der EU.</b> Deine Daten verlassen die EU nicht ohne deine ausdrückliche Zustimmung.
   </li>
   <li>
     <b>Ehrlichkeit bei Kompromissen.</b> Wo wir einen Kompromiss zwischen Komfort und Datenschutz eingehen, dokumentieren
-    wir dies klar und deutlich.
+     wir dies klar und deutlich.
   </li>
 </ol>
 
