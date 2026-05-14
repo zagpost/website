@@ -4,7 +4,6 @@
 
   // ! This is not automatically translated using the script, so make sure to update the SEO config in the other language pages as well when you update it here.
   const seo_config: SeoConfig = {
-    themeColor: "#000000",
     title: "Zag Post - Private Messaging for the people",
     description:
       "Zag Post is a privacy-first messenger being built for friends, families and small groups. No phone number required.",

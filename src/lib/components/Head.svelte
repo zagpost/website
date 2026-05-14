@@ -42,16 +42,6 @@
     url: string;
 
     /**
-     * The theme color for the web page.
-     * Mainly used for embeds.
-     *
-     * @exmaple
-     * "#ff0000" for red, "#00ff00" for green, "#0000ff" for blue, etc.
-     * @type {string}
-     */
-    themeColor?: string;
-
-    /**
      * The website to which the web page belongs.
      * Used as twitter:domain.
      *
@@ -142,10 +132,6 @@
 
   {#if seo_config.author_name}
     <meta name="author" content={seo_config.author_name} />
-  {/if}
-
-  {#if seo_config.themeColor}
-    <meta name="theme-color" content={seo_config.themeColor} />
   {/if}
 
   <!-- Open Graph / Facebook Meta Tags -->
