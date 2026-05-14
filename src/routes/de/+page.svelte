@@ -71,7 +71,7 @@
   im Dezember 2026 an.
 </p>
 
-<div class="min-w-100 overflow-x-auto">
+<div class="w-full overflow-x-auto">
   <table class="table-zebra">
     <thead>
       <tr>
@@ -162,7 +162,7 @@
   Ich suche derzeit nach:
 </p>
 
-<div class="min-w-100 overflow-y-auto">
+<div class="w-full overflow-x-auto">
   <table class="table-zebra">
     <thead>
       <tr>
