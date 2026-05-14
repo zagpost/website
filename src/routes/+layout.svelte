@@ -16,6 +16,15 @@
 <svelte:head>
   <link rel="icon" href={favicon} />
   <meta name="theme-color" content="#28bf6a" />
+
+  <!-- hreflang tags -->
+  {#each locales as locale}
+    <link
+      rel="alternate"
+      hrefLang={locale}
+      href={locale === "en" ? "https://zagpost.org/" : `https://zagpost.org/${locale}`}
+    />
+  {/each}
 </svelte:head>
 
 <div class="container mx-auto flex max-w-200 flex-col px-4 py-8">
