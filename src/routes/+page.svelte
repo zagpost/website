@@ -61,7 +61,7 @@
 
 <p><b>Zag Post</b> is in early development, but we target a closed beta release in December 2026.</p>
 
-<div class="min-w-100 overflow-x-auto">
+<div class="w-full overflow-x-auto">
   <table class="table-zebra">
     <thead>
       <tr>
@@ -149,7 +149,7 @@
   I am currently on the lookout for:
 </p>
 
-<div class="min-w-100 overflow-y-auto">
+<div class="w-full overflow-x-auto">
   <table class="table-zebra">
     <thead>
       <tr>
