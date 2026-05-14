@@ -45,7 +45,12 @@
     class="fixed top-0 right-0 left-0 mb-8 flex h-(--header-height) w-full items-center justify-between bg-background/30 px-4 py-8 shadow-lg backdrop-blur-lg"
   >
     <div class="mx-auto flex w-full max-w-220 items-center justify-between">
-      <a href="/{data.locale}" class="text-2xl font-bold transition-opacity hover:opacity-70">Zag Post</a>
+      <a
+        href="/{data.locale === 'en' ? '' : data.locale}"
+        class="text-2xl font-bold transition-opacity hover:opacity-70"
+      >
+        Zag Post
+      </a>
       <select class="rounded border p-1 text-sm" onchange={changeLanguage}>
         {#key data.locale}
           <optgroup label={LanguagesLabel[data.locale]}>
