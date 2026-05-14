@@ -9,6 +9,10 @@ export const handle: Handle = async ({ event, resolve }) => {
 
   const response = await resolve(event, {
     transformPageChunk: ({ html }) => html.replace("%lang%", lang),
+    preload: ({ type, path }) => {
+      // preload default assets (js, css) + fonts
+      return type === "js" || type === "css" || type === "font";
+    },
   });
 
   if (response.status === 404) {
