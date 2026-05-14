@@ -35,7 +35,7 @@
   niemals.
 </p>
 
-<h2>Warum Zag Post?</h2>
+<h2 id="why-zag-post">Warum Zag Post?</h2>
 
 <p>
   Zag Post richtet sich an die Nutzer, bei denen WhatsApp, Signal und Matrix auf unterschiedliche Weise
@@ -64,7 +64,7 @@
   ausschließlich verschlüsselte Daten speichert und das sogar deine Oma nutzen kann.
 </p>
 
-<h2>Roadmap</h2>
+<h2 id="roadmap">Roadmap</h2>
 
 <p>
   <b>Zag Post</b> befindet sich in der frühen Entwicklungsphase, aber wir streben eine Closed-Beta-Veröffentlichung
@@ -115,7 +115,7 @@
   </table>
 </div>
 
-<h2>Unsere Verpflichtungen</h2>
+<h2 id="our-commitments">Unsere Verpflichtungen</h2>
 
 <p>Wir geben konkrete, technische Zusagen – keine vagen Versprechungen.</p>
 
@@ -146,7 +146,7 @@
   </li>
 </ol>
 
-<h2>Open Source</h2>
+<h2 id="open-source">Open Source</h2>
 
 <p>
   Wir entwickeln das meiste als Open Source, aus Sicherheitsgründen wird jedoch nicht alles von Anfang an
@@ -156,7 +156,7 @@
 
 <hr />
 
-<h2>Mach mit</h2>
+<h2 id="join-us">Mach mit</h2>
 
 <p>
   Ich (LukeZ) arbeite derzeit als Einziger an Zag Post, aber ich hoffe, ein kleines Team aus Freiwilligen und
@@ -216,7 +216,7 @@
 
 <hr />
 
-<footer>
+<footer id="contact">
   <p>
     <b>Kontakt</b>: <a href="mailto:contact@zagpost.org" target="_blank">contact@zagpost.org</a>
   </p>

@@ -32,7 +32,7 @@
 
 <p>No phone number required. No metadata profiles. No scanning of private messages. No ads, ever.</p>
 
-<h2>Why Zag Post?</h2>
+<h2 id="why-zag-post">Why Zag Post?</h2>
 
 <p>Zagpost targets the users that WhatsApp, Signal, and Matrix have each failed in different ways:</p>
 
@@ -57,7 +57,7 @@
   your grandma can use.
 </p>
 
-<h2>Roadmap</h2>
+<h2 id="roadmap">Roadmap</h2>
 
 <p><b>Zag Post</b> is in early development, but we target a closed beta release in December 2026.</p>
 
@@ -105,7 +105,7 @@
   </table>
 </div>
 
-<h2>Our Commitments</h2>
+<h2 id="our-commitments">Our Commitments</h2>
 
 <p>We make specific, technical commitments – not vague promises.</p>
 
@@ -133,7 +133,7 @@
   </li>
 </ol>
 
-<h2>Open Source</h2>
+<h2 id="open-source">Open Source</h2>
 
 <p>
   We build most of the stuff as open source, not everything will be public from the get-go due to security
@@ -143,7 +143,7 @@
 
 <hr />
 
-<h2>Join Us</h2>
+<h2 id="join-us">Join Us</h2>
 
 <p>
   I (LukeZ) am currently the only one working on Zag Post, but I hope to build a small team of volunteers and
@@ -200,7 +200,7 @@
 
 <hr />
 
-<footer>
+<footer id="contact">
   <p>
     <b>Contact</b>: <a href="mailto:contact@zagpost.org" target="_blank">contact@zagpost.org</a>
   </p>

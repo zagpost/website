@@ -36,7 +36,7 @@
   pubs, jamais.
 </p>
 
-<h2>Pourquoi Zag Post ?</h2>
+<h2 id="why-zag-post">Pourquoi Zag Post ?</h2>
 
 <p>
   Zag Post s&#x27;adresse aux utilisateurs que WhatsApp, Signal et Matrix ont chacun déçus à leur manière :
@@ -65,7 +65,7 @@
   que même ta grand-mère peut utiliser.
 </p>
 
-<h2>Feuille de route</h2>
+<h2 id="roadmap">Feuille de route</h2>
 
 <p>
   <b>Zag Post</b> en est aux premiers stades de développement, mais nous visons une version bêta fermée en décembre
@@ -116,7 +116,7 @@
   </table>
 </div>
 
-<h2>Nos engagements</h2>
+<h2 id="our-commitments">Nos engagements</h2>
 
 <p>Nous prenons des engagements techniques précis, pas de vagues promesses.</p>
 
@@ -146,7 +146,7 @@
   </li>
 </ol>
 
-<h2>Open Source</h2>
+<h2 id="open-source">Open Source</h2>
 
 <p>
   Nous développons la plupart de nos fonctionnalités en open source, mais tout ne sera pas public dès le
@@ -156,7 +156,7 @@
 
 <hr />
 
-<h2>Rejoins-nous</h2>
+<h2 id="join-us">Rejoins-nous</h2>
 
 <p>
   Je (LukeZ) suis actuellement le seul à travailler sur Zag Post, mais j’espère constituer une petite équipe
@@ -207,7 +207,7 @@
 
 <hr />
 
-<footer>
+<footer id="contact">
   <p>
     <b>Contact</b> : <a href="mailto:contact@zagpost.org" target="_blank">contact@zagpost.org</a>
   </p>
