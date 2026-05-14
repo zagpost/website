@@ -47,7 +47,7 @@
     </div>
   </header>
 
-  <main class="prose prose-lg mt-(--header-height) mb-40 max-w-svh">
+  <main class="prose prose-lg mt-(--header-height) mb-40 w-full min-w-0">
     {@render children()}
   </main>
 </div>
