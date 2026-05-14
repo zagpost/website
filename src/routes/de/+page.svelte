@@ -6,7 +6,7 @@
     title: "Zag Post - Private Nachrichten für alle",
     description:
       "Zag Post ist ein Messenger, bei dem der Datenschutz an erster Stelle steht. Keine Telefonnummer erforderlich.",
-    url: "https://zagpost.com/de",
+    url: "https://zagpost.org/de",
     language: "de",
   };
 

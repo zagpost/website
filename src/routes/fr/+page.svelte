@@ -6,7 +6,7 @@
     title: "Zag Post - Une messagerie privée pour tout le monde",
     description:
       "Zag Post est une messagerie qui privilégie la confidentialité. Pas besoin de numéro de téléphone.",
-    url: "https://zagpost.com/fr",
+    url: "https://zagpost.org/fr",
     language: "fr",
   };
 
