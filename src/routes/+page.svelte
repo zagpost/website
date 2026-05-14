@@ -205,5 +205,5 @@
   <p>
     <b>Bluesky</b>: <a href="https://bsky.app/profile/zagpost.org" target="_blank">Bluesky</a>
   </p>
-  <small>&copy; 2026 zagpost.org </small>
+  <small>&copy; 2026 zagpost.org</small>
 </footer>

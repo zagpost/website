@@ -219,5 +219,5 @@
   <p>
     <b>Bluesky</b>: <a href="https://bsky.app/profile/zagpost.org" target="_blank">Bluesky</a>
   </p>
-  <small>© 2026 zagpost.org </small>
+  <small>© 2026 zagpost.org</small>
 </footer>
