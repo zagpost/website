@@ -107,8 +107,6 @@
 
 <h2 id="our-commitments">Our Commitments</h2>
 
-<p>We make specific, technical commitments – not vague promises.</p>
-
 <ol>
   <li>
     <b>No ads, ever.</b> Zag Post is funded by donations. Your data is not the product.
