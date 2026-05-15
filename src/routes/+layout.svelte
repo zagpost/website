@@ -53,7 +53,7 @@
       >
         Zag Post
       </a>
-      <select class="rounded border p-1 text-sm" onchange={changeLanguage}>
+      <select class="rounded border p-1 text-sm" onchange={changeLanguage} aria-label="Change language">
         {#key data.locale}
           <optgroup label={LanguagesLabel[data.locale]}>
             {#each locales as locale}
