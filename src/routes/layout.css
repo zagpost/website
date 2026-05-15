@@ -34,7 +34,7 @@
     scroll-margin-top: var(--header-height);
   }
   body {
-    @apply overflow-x-hidden bg-background bg-linear-to-br from-primary/20 to-secondary/20 text-foreground dark:from-primary/10;
+    @apply min-h-screen overflow-x-hidden bg-background bg-linear-to-br from-primary/20 to-secondary/20 pb-20 text-foreground dark:from-primary/10;
   }
   html {
     @apply font-sans sm:text-lg;
@@ -52,9 +52,11 @@
     @apply text-xl font-semibold;
   }
 
-  a:hover,
-  a:active {
-    @apply text-primary! decoration-primary!;
+  *:not(:has(.social-share-button)) {
+    a:hover,
+    a:active {
+      @apply text-primary! decoration-primary!;
+    }
   }
 
   table td,

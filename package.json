@@ -15,9 +15,10 @@
     "format": "prettier --write .",
     "translate": "bun --env-file=.env.local scripts/translate.ts"
   },
-  "packageManager": "pnpm@11.0.9",
+  "packageManager": "pnpm@11.1.2",
   "devDependencies": {
     "@fontsource-variable/outfit": "^5.2.8",
+    "@stephansama/svelte-social-share-links": "^1.1.5",
     "@sveltejs/adapter-static": "^3.0.10",
     "@sveltejs/kit": "^2.57.0",
     "@sveltejs/vite-plugin-svelte": "^7.0.0",

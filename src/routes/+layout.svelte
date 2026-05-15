@@ -1,9 +1,11 @@
 <script lang="ts">
+  import "./layout.css";
   import { goto } from "$app/navigation";
-  import { LanguagesLabel, locales, localesLabels } from "$lib";
+  import { delocalizePath, getShareText, LanguagesLabel, locales, localesLabels, ShareAliases } from "$lib";
   import favicon from "$lib/assets/favicon.svg";
   import { getLocalizedPath } from "$lib/routeMap";
-  import "./layout.css";
+  import SocialShare from "$lib/components/SocialShare.svelte";
+  import { page } from "$app/state";
 
   let { data, children } = $props();
 
@@ -65,7 +67,57 @@
     </div>
   </header>
 
-  <main class="prose prose-lg mt-(--header-height) mb-40 w-full min-w-0 dark:prose-invert">
+  <main class="prose prose-lg mt-(--header-height) mb-10 w-full min-w-0 dark:prose-invert">
     {@render children()}
+
+    <hr />
+
+    {#if delocalizePath(page.url.pathname) === "/"}
+      <div class="flex flex-wrap justify-center gap-3">
+        <SocialShare network="bluesky" url="https://zagpost.org" label={ShareAliases[data.locale]} />
+        <SocialShare
+          network="x"
+          url="https://zagpost.org"
+          label={ShareAliases[data.locale]}
+          title={getShareText("x", data.locale)}
+          hashtags="zagpost,messenger"
+        />
+        <SocialShare
+          network="mastodon"
+          url="https://zagpost.org"
+          label={ShareAliases[data.locale]}
+          title={getShareText("mastodon", data.locale)}
+        />
+        <SocialShare
+          network="reddit"
+          url="https://zagpost.org"
+          label={ShareAliases[data.locale]}
+          title={getShareText("reddit", data.locale)}
+        />
+        <SocialShare network="facebook" url="https://zagpost.org" label={ShareAliases[data.locale]} />
+        <SocialShare
+          network="threads"
+          url="https://zagpost.org"
+          label={ShareAliases[data.locale]}
+          title={getShareText("threads", data.locale)}
+          styled
+        />
+        <SocialShare network="email" url="https://zagpost.org" label={ShareAliases[data.locale]} />
+
+        <!-- its a bit ironic, but we also allow sharing via whatsapp and telegram -->
+        <SocialShare
+          network="whatsapp"
+          url="https://zagpost.org"
+          label={ShareAliases[data.locale]}
+          title={getShareText("whatsapp", data.locale)}
+        />
+        <SocialShare
+          network="telegram"
+          url="https://zagpost.org"
+          label={ShareAliases[data.locale]}
+          title={getShareText("telegram", data.locale)}
+        />
+      </div>
+    {/if}
   </main>
 </div>
