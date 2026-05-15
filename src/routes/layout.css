@@ -88,6 +88,17 @@
       text-decoration-color: var(--color-foreground) !important;
     }
   }
+
+  .social-share-button {
+    text-decoration: none !important;
+    color: white !important;
+
+    &:hover,
+    &:active {
+      text-decoration: none !important;
+      color: white !important;
+    }
+  }
 }
 
 @layer utilities {
