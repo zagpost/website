@@ -2,6 +2,7 @@
 
 import type { locales } from "$lib";
 import type { WebPage, WithContext } from "schema-dts";
+import type * as networks from "$lib/assets/socialShareNetworks.json" with { type: "json" };
 
 // for information about these interfaces
 declare global {
@@ -20,6 +21,30 @@ declare global {
   type Locale = (typeof locales)[number];
 
   type JsonLdData = WithContext<WebPage>;
+
+  type Network = keyof typeof networks;
+  type NetworkSchema = {
+    args?: {
+      hashtags?: string;
+      image?: string;
+      title?: string;
+      user?: string;
+    };
+    color: string;
+    icon: {
+      path: string;
+      viewBox: string;
+    };
+    name: string;
+    shareUrl: string;
+  };
+  type UrlProps = {
+    hashtags?: string;
+    image?: string;
+    title?: string;
+    url: string;
+    user?: string;
+  };
 }
 
 export {};

@@ -1,7 +1,7 @@
 <script lang="ts">
   // Adapted from @stephansama/svelte-social-share-links to allow for more flexible styling
-  import { buildUrl, type Network, type NetworkSchema } from "@stephansama/svelte-social-share-links";
-  import networks from "$lib/assets/socialShareNetworks";
+  import * as networks from "$lib/assets/socialShareNetworks.json" with { type: "json" };
+    import { buildUrl } from "$lib/socialShareUtils.js";
 
   interface Props {
     network: Network;

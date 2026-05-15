@@ -1,5 +1,3 @@
-import type { Network } from "@stephansama/svelte-social-share-links";
-
 // place files you want to import through the `$lib` alias in this folder.
 export const locales = ["en", "de", "fr"] as const;
 

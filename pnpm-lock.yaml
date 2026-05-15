@@ -11,9 +11,6 @@ importers:
       '@fontsource-variable/outfit':
         specifier: 5.2.8
         version: 5.2.8
-      '@stephansama/svelte-social-share-links':
-        specifier: 1.1.5
-        version: 1.1.5(svelte@5.55.7)
       '@sveltejs/adapter-static':
         specifier: 3.0.10
         version: 3.0.10(@sveltejs/kit@2.60.1(@sveltejs/vite-plugin-svelte@7.1.2(svelte@5.55.7)(vite@8.0.13(@types/node@25.7.0)(jiti@2.7.0)))(svelte@5.55.7)(typescript@6.0.3)(vite@8.0.13(@types/node@25.7.0)(jiti@2.7.0)))
@@ -236,12 +233,6 @@ packages:
 
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
-
-  '@stephansama/svelte-social-share-links@1.1.5':
-    resolution: {integrity: sha512-jhqmIvmkKZXkAvl9ln+/kGQ0L8+VLG8GKm82MrLMs9Z3hMc1Stau9rWKG1t6dmKlp/z1NgpN7YiipMQMGToyWg==}
-    engines: {node: '>=24'}
-    peerDependencies:
-      svelte: '>=5'
 
   '@sveltejs/acorn-typescript@1.0.9':
     resolution: {integrity: sha512-lVJX6qEgs/4DOcRTpo56tmKzVPtoWAaVbL4hfO7t7NVwl9AAXzQR6cihesW1BmNMPl+bK6dreu2sOKBP2Q9CIA==}
@@ -1096,10 +1087,6 @@ snapshots:
   '@rolldown/pluginutils@1.0.0': {}
 
   '@standard-schema/spec@1.1.0': {}
-
-  '@stephansama/svelte-social-share-links@1.1.5(svelte@5.55.7)':
-    dependencies:
-      svelte: 5.55.7
 
   '@sveltejs/acorn-typescript@1.0.9(acorn@8.16.0)':
     dependencies:
