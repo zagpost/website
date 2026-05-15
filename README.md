@@ -1,42 +1,13 @@
-# sv
+# Zag Post Product Website
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This is a a simple product/project website for **Zag Post**.
 
-## Creating a project
+Made with SvelteKit, Svelte 5 and tailwindcss.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Dependencies
 
-```sh
-# create a new project
-npx sv create my-app
-```
+Dependencies have to use a fixed version for security reasons. That means deps should have a version like `x.x.x` and not `^x.x.x` or `~x.x.x`.
 
-To recreate this project with the same configuration:
+## Contributing
 
-```sh
-# recreate this project
-pnpm dlx sv@0.15.3 create --template minimal --types ts --add prettier sveltekit-adapter="adapter:static" paraglide="languageTags:en, de+demo:no" tailwindcss="plugins:none" --install pnpm website
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or suggestions.
