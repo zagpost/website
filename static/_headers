@@ -1,0 +1,18 @@
+/*.html
+  Content-Type: text/html; charset=utf-8
+  Cache-Control: public, max-age=86400, must-revalidate
+
+/de/*.html
+  Content-Type: text/html; charset=utf-8
+  Cache-Control: public, max-age=86400, must-revalidate
+
+/fr/*.html
+  Content-Type: text/html; charset=utf-8
+  Cache-Control: public, max-age=86400, must-revalidate
+
+/_app/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/robots.txt
+/sitemap.xml
+  Cache-Control: public, max-age=3600
